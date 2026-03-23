@@ -1,0 +1,22 @@
+[project]
+name = "dataforge-recovery"
+version = "0.1.0"
+description = "Bit-level data recovery tool with deep disk forensics"
+requires-python = ">=3.10"
+dependencies = [
+    "pytsk3>=0.6.1",
+    "PySide6>=6.6.0",
+    "pywin32>=306",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "pyinstaller>=6.0",
+]
+imaging = [
+    "pyewf>=0.4",
+]
+
+[project.scripts]
+dataforge = "src.main:main"
