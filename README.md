@@ -23,9 +23,11 @@ Bit-level data recovery tool with deep disk forensics support.
 
 No Python or dependencies needed. Just download and run.
 
-1. Download the latest **DataForge Recovery** release (`.zip` file)
-2. Extract the zip to any folder (e.g. `C:\DataForge Recovery\`)
-3. Open the extracted folder and double-click **`DataForge Recovery.exe`**
+The pre-built EXE is included in this repository under [`dist/DataForge Recovery/`](dist/DataForge%20Recovery/).
+
+1. Clone or download this repository
+2. Navigate to the `dist/DataForge Recovery/` folder
+3. Double-click **`DataForge Recovery.exe`**
 4. Windows will ask for Administrator permission — click **Yes** (required for raw disk access)
 
 > **Important:** Do not move the `.exe` out of its folder. It needs the `_internal/` directory next to it to run.
